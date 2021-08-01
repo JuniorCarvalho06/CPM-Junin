@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculos Para Monetizar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="transferir.png" type="image/x-icon">
+    <body>
+
+        <p id="creditos">Site criado porﾠ<a href="https://www.youtube.com/channel/UC_3yExv3xVTojtR-wVgvTJQ" target="_blind">Júnior Carvalho
+            <sup>&copy;</sup> </a></p>
+        
+        
+           <!--<p><a id="sigup" href="sigup/sigup.html">Criar</a></p>--> 
+           <!--<p><a id="login" href="login/login.html">Entrar</a></p>-->     
+           <!---->
+           <p><a id="prc" href="prc.html">Parceiros</a></p>
+            <!--<h1 id="cpm">
+            YouTube Creators <sup>ao</sup> 
+            </h1>--->
+        
+
+        
+        
+        <nav class="form">
+            
+            <div class='card'>
+
+                <div class='card-top'>
+                    
+                    <h2 class="titulo">Cálculos para Monetizar</h2>
+                
+                </div>
+                    
+                <div class="card-group">
+                    <div id="card-group-IA">
+                        <label>Inscritos Atuais</label>
+                        <input id="Inscritos-Atuais" type="number" id="Inscritos Atuais" placeholder="Quantos inscritos o seu canal tem?"  onkeypress="if (!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;" required="required">
+
+                    </div>
+
+                    
+                    <div  id="card-group-IPD">
+                        <label>Inscritos Por Dia</label>
+                        <input id="Inscritos-Por-Dia"  type="number" id="Inscritos Por Dia" placeholder="Quantos inscritos o seu canal ganha por dia?"  onkeypress="if (!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;"  required="required">
+                    
+                    </div>
+
+
+                    <div id="card-group-HA">
+                        <label>Horas Atuais</label>
+                        <input id="Horas-Atuais" type="number" placeholder="Quantas horas públicas o seu canal tem?"  onkeypress="if (!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;" required="required">
+
+                    </div>
+
+
+                    <div id="card-group-HPD">
+                        <label>Horas Por Dia</label>
+                        <input id="Horas-Por-Dia" type="number" placeholder="Quantas horas Públicas o seu canal faz por dia?"  onkeypress="if (!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;" required="required">
+
+                    </div>
+
+                </div>
+
+                <Label style="color: rgb(255, 255, 255); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Digite quantos dias quer calcular :</Label>
+                <input id="Dias" type="number"  value="7" maxlength="3" min="1"  max="365"   onkeypress="if (!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;" required="required" placeholder="máx 365 dias" >
+                
+
+                
+                <p><a id="htu" href="htu.html">Como Usar</a></p>
+                <p><a id="diss" href="diss.html">Dicionário do Youtube</a></p>
+            
+            </div>
+
+        </nav>     
+       
+        
+
+        <div class="card-group-btn">
+            <input type="submit" value="Calcular" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px;" onclick="calcular()">
+
+        </div> 
+       
+
+         <!--JavaScript-->
+        
+        <div id="res"></div>
+        <script>
+            function calcular(){
+            var IA = window.document.getElementById('Inscritos-Atuais');
+            var IPD = window.document.getElementById('Inscritos-Por-Dia');
+            var HA = window.document.getElementById('Horas-Atuais');
+            var HPD = window.document.getElementById('Horas-Por-Dia');
+            var Days = window.document.getElementById('Dias');
+
+            var res = window.document.querySelector('div#res');
+            
+            var days = Number(Days.value);
+            var y1 = Number(IA.value);
+            var y2 = Number(IPD.value);
+            var y3 = Number(HA.value);
+            var y4 = Number(HPD.value);
+            
+            var I = y1 + (y2 * days)
+            var H = y3 + (y4 * days)
+            
+
+            
+            if (days > 365){
+                res.innerHTML = `<p> <strong> Digite um Número menor que 365 </strong> </p>`
+            } 
+            if (days <= 365) {
+                res.innerHTML = `<p> <strong> Com os dados fornecido em ${days} dias seu canal 
+                estará com ${I} Inscritos e ${H} Horas Assistidas </strong> </p>`
+            }
+        
+            
+            }
+
+
+        </script>
+
+    </body>        
+</head>
+
+</html>

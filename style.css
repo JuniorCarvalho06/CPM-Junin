@@ -1,0 +1,180 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image:linear-gradient(to right,  #002E7B, #228CBD) ;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+
+#head{
+    color:#ffee00 ;
+     
+}
+
+
+#prc{
+    text-decoration: none;
+    color: rgb(0, 38, 255);
+    background-color: gold;
+    padding: 10px;
+    float: right;
+    text-align: right;
+    margin-top: -80px;
+    margin-right: 13px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#cpm{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/*.imglogin{
+    border-radius: 45px;
+    box-shadow: 6px 3px 6px rgb(143, 140, 140);
+
+}*/
+
+
+
+
+/* resto dos ids */
+
+
+#creditos, #creditos a{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+#creditos a{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+#htu{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+
+#diss{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+
+/* class form */
+
+.form{
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 600px;
+}
+
+/* class card */
+
+.card{
+    box-shadow: 10px 7px 7px rgba(50, 51, 50, 0.849);
+    background-image: linear-gradient(to right, rgba(224, 130, 22, 0.952), rgba(252, 138, 7, 0.959));
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* texto */
+
+.card-top{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.titulo{
+    color: rgb(255, 255, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+/* Labels */
+.card-group > div > label{
+    width: 100%;
+    color: rgba(231, 235, 11, 0.884);
+    font-family: cursive;
+}
+
+#card-group-IA,#card-group-IPD,#card-group-HA,#card-group-HPD{
+    margin-bottom: 10px;
+}
+
+/* inputs */
+
+#Dias{
+    background-color: rgb(255, 255, 255);
+    margin-top: -520;
+    border-radius: 7px;
+    width: 100px;
+    height: 20px;
+        
+
+}
+
+.card-group > div > input{
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    outline: 0;
+    width: 90%;
+    height: 30px;
+    padding-left: 7px;
+    font-family: cursive;
+}
+
+
+
+/* botão input */
+
+.card-group-btn > input{
+    background-color: rgba(255, 0, 0, 0.959) ;
+    width: 200px;
+    border-radius: 17px;
+    margin-top: 10px;
+    padding: 15px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 0px;
+    outline: 0px;
+}
+
+.card-group-btn input:hover{
+    background-image:linear-gradient(to right, rgba(58, 226, 25, 0.829), rgba(32, 170, 43, 0.856));
+    color: black;
+}
+
+.card-group-btn{
+    text-align: center;
+}
+
+/* resposta*/
+
+#res{
+    display: inline;
+    color: white;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}

@@ -3,8 +3,8 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
     background-image:linear-gradient(to right,  #002E7B, #228CBD) ;
-    overflow-y: hidden;
     overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -25,7 +25,8 @@ body{
     margin-top: -80px;
     margin-right: 13px;
     border-radius: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    
 }
 
 
@@ -33,7 +34,7 @@ body{
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 50px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 
 }
 
@@ -54,14 +55,16 @@ body{
     text-align: center;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-family: 'Courier New', Courier, monospace;
+    
+    
 }
 #creditos a{
     font-size: 20px;
     text-align: center;
     text-decoration: none;
     color: greenyellow;
-    font-family: 'Courier New', Courier, monospace;
+    margin-left: 12px;
+    
 }
 
 
@@ -69,13 +72,13 @@ body{
 #htu{
     text-decoration: none;
     color: white;
-    font-family: cursive;
+    
 }
 
 #diss{
     text-decoration: none;
     color: white;
-    font-family: cursive;
+    
 }
 
 /* class form */
@@ -106,7 +109,7 @@ body{
 
 .titulo{
     color: rgb(255, 255, 255);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 
 
@@ -115,7 +118,7 @@ body{
 .card-group > div > label{
     width: 100%;
     color: rgba(231, 235, 11, 0.884);
-    font-family: cursive;
+    
 }
 
 #card-group-IA,#card-group-IPD,#card-group-HA,#card-group-HPD{
@@ -140,8 +143,7 @@ body{
     outline: 0;
     width: 90%;
     height: 30px;
-    padding-left: 7px;
-    font-family: cursive;
+    
 }
 
 
@@ -155,7 +157,6 @@ body{
     margin-top: 10px;
     padding: 15px;
     color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border: 0px;
     outline: 0px;
 }
@@ -175,6 +176,5 @@ body{
     display: inline;
     color: white;
     text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }

@@ -162,7 +162,7 @@ a{
 @media (max-width: 2000px) {
     .form{
         margin: 3.5% auto 1% auto;
-        width: 50%;
+        width: 42%;
     }
 
 
@@ -470,6 +470,7 @@ a{
        
         padding: 5%;
         border-radius: 10px;
+    
     }
     
 

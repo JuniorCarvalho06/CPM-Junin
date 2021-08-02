@@ -137,6 +137,7 @@ a{
     
 }
 
+/*responsive*/
 @media (max-width: 2140px) {
     .form{
         margin: 6% auto 1% auto;
@@ -160,8 +161,8 @@ a{
 
 @media (max-width: 2000px) {
     .form{
-        margin: 6% auto 1% auto;
-        width: 55%;
+        margin: 3.5% auto 1% auto;
+        width: 50%;
     }
 
 
